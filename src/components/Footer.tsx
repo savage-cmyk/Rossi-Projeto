@@ -1,0 +1,77 @@
+import React from "react";
+import { Instagram, Facebook, Linkedin, ArrowUp } from "lucide-react";
+
+export const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  return (
+    <footer className="bg-black py-16 text-white">
+      <div className="mx-auto max-w-7xl px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div>
+            <h3 className="text-2xl font-black uppercase text-primary mb-6">Rossi CV</h3>
+            <p className="text-neutral-400 font-medium">
+              Especialistas em comunicação visual de alto padrão. Transformamos sua identidade em impacto real.
+            </p>
+            <div className="mt-8 flex gap-4">
+              <SocialIcon icon={<Instagram className="h-5 w-5" />} />
+              <SocialIcon icon={<Facebook className="h-5 w-5" />} />
+              <SocialIcon icon={<Linkedin className="h-5 w-5" />} />
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-black uppercase mb-6 text-white">Links Rápidos</h4>
+            <ul className="space-y-4 text-neutral-400 font-medium">
+              <li><a href="#home" className="hover:text-primary transition-colors">Início</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">Serviços</a></li>
+              <li><a href="#about" className="hover:text-primary transition-colors">Sobre Nós</a></li>
+              <li><a href="#portfolio" className="hover:text-primary transition-colors">Portfólio</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-black uppercase mb-6 text-white">Serviços</h4>
+            <ul className="space-y-4 text-neutral-400 font-medium">
+              <li>Fachadas ACM</li>
+              <li>Letras 3D</li>
+              <li>Impressão Digital</li>
+              <li>Design Gráfico</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-black uppercase mb-6 text-white">Localização</h4>
+            <p className="text-neutral-400 font-medium">
+              R. Tomaz Domingos da Silveira, 2263<br />
+              Galpão b - São Sebastião<br />
+              Palhoça - SC
+            </p>
+            <button 
+              onClick={scrollToTop}
+              className="mt-8 flex items-center gap-2 text-primary font-black uppercase text-xs hover:underline"
+            >
+              Voltar ao Topo <ArrowUp className="h-4 w-4" />
+            </button>
+          </div>
+        </div>
+
+        <div className="mt-16 pt-8 border-t border-neutral-800 flex flex-col md:flex-row justify-between items-center gap-4 text-neutral-500 text-xs font-bold uppercase">
+          <p>© 2024 Rossi Comunicação Visual. Todos os direitos reservados.</p>
+          <div className="flex gap-8">
+            <a href="#" className="hover:text-white transition-colors">Privacidade</a>
+            <a href="#" className="hover:text-white transition-colors">Termos</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+const SocialIcon = ({ icon }: any) => (
+  <a href="#" className="brutal-card p-2 bg-neutral-900 border-neutral-800 hover:bg-primary hover:text-black hover:border-black transition-all">
+    {icon}
+  </a>
+);

@@ -23,16 +23,6 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-sm font-black uppercase mb-6 text-white">Links Rápidos</h4>
-            <ul className="space-y-4 text-neutral-400 font-medium">
-              <li><a href="#home" className="hover:text-primary transition-colors">Início</a></li>
-              <li><a href="#services" className="hover:text-primary transition-colors">Serviços</a></li>
-              <li><a href="#about" className="hover:text-primary transition-colors">Sobre Nós</a></li>
-              <li><a href="#portfolio" className="hover:text-primary transition-colors">Portfólio</a></li>
-            </ul>
-          </div>
-
-          <div>
             <h4 className="text-sm font-black uppercase mb-6 text-white">Serviços</h4>
             <ul className="space-y-4 text-neutral-400 font-medium">
               <li>Fachadas ACM</li>

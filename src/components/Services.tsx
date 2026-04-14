@@ -74,7 +74,7 @@ const services = [
     title: "Fachadas ACM/Lona",
     description: "Estruturas robustas e acabamento impecável para destacar sua empresa.",
     icon: <Layers className="h-8 w-8" />,
-    image: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e01a?q=80&w=2070&auto=format&fit=crop",
+    image: "/acm.png",
   },
   {
     title: "Letras 3D PVC",
@@ -92,6 +92,6 @@ const services = [
     title: "Design Gráfico",
     description: "Criação de identidades visuais e artes para todos os fins.",
     icon: <Palette className="h-8 w-8" />,
-    image: "https://images.unsplash.com/photo-1572044162444-ad60f128bde2?q=80&w=2070&auto=format&fit=crop",
+    image: "/design.jpg",
   },
 ];

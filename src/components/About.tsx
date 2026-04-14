@@ -22,7 +22,7 @@ const aboutSections = [
     title: "Fachadas que Vendem",
     description:
       "Sua fachada é o primeiro contato do cliente com sua marca. Criamos projetos em ACM e Lona que transmitem profissionalismo e atraem olhares, transformando sua identidade em impacto real.",
-    image: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e01a?q=80&w=2070&auto=format&fit=crop",
+    image: "/fachada.png",
     color: "bg-white",
     textColor: "text-black"
   },

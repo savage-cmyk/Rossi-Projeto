@@ -13,7 +13,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <div className="mb-6 flex justify-start">
-              <Logo className="h-12 md:h-16 invert brightness-0" />
+              <Logo className="h-[72px] md:h-24 invert brightness-0" />
             </div>
             <p className="text-neutral-400 font-medium">
               Especialistas em comunicação visual de alto padrão. Transformamos sua identidade em impacto real.
@@ -31,7 +31,7 @@ export const Footer = () => {
               <li>Fachadas ACM</li>
               <li>Letras 3D</li>
               <li>Impressão Digital</li>
-              <li>Design Gráfico</li>
+              <li>Projetos de Impacto</li>
             </ul>
           </div>
 

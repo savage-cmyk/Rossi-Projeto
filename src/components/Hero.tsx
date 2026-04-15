@@ -5,7 +5,7 @@ import { Logo } from "@/components/Logo";
 
 export const Hero = () => {
   return (
-    <section className="relative h-screen w-full overflow-hidden border-b-8 border-black bg-white flex items-center justify-center">
+    <section className="relative h-screen w-full overflow-hidden border-b-8 border-white bg-black flex items-center justify-center">
       <div className="relative z-10 flex flex-col items-center justify-center px-4 text-center max-w-5xl">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
@@ -13,14 +13,14 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
           className="mb-12"
         >
-          <Logo className="h-32 md:h-48" />
+          <Logo className="h-48 md:h-72" />
         </motion.div>
 
         <motion.h1 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="text-4xl font-black uppercase leading-none tracking-tighter text-black md:text-6xl lg:text-7xl mb-8"
+          className="text-4xl font-black uppercase leading-none tracking-tighter text-white md:text-6xl lg:text-7xl mb-8"
         >
           Transformando sua Identidade em Impacto
         </motion.h1>
@@ -29,9 +29,9 @@ export const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.5 }}
-          className="mx-auto max-w-3xl text-xl font-black text-black md:text-2xl mb-12"
+          className="mx-auto max-w-3xl text-xl font-black text-white md:text-2xl mb-12"
         >
-          Desde 2014 transformando marcas com precisão técnica e design de alto impacto.
+          Desde 2014 transformando marcas com precisão técnica e projetos de impacto.
         </motion.p>
 
         <motion.div
@@ -43,13 +43,13 @@ export const Hero = () => {
             href="https://wa.me/5548996210000" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-block bg-black text-white px-12 py-5 rounded-full text-xl font-black uppercase shadow-[0px_8px_0px_0px_rgba(0,0,0,0.3)] hover:translate-y-1 hover:shadow-none transition-all"
+            className="inline-block bg-white text-black px-12 py-5 rounded-full text-xl font-black uppercase shadow-[0px_8px_0px_0px_rgba(255,255,255,0.3)] hover:translate-y-1 hover:shadow-none transition-all"
           >
             Solicitar Orçamento
           </a>
         </motion.div>
       </div>
-      <RetroGrid className="opacity-10" />
+      <RetroGrid className="opacity-20" />
     </section>
   );
 };

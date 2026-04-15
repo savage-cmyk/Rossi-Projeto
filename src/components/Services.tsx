@@ -10,7 +10,7 @@ export const Services = () => {
         <div className="mb-24 text-center">
           <h2 className="text-5xl md:text-8xl font-black uppercase mb-6">Nossos Serviços</h2>
           <p className="mt-4 text-xl md:text-2xl font-black text-black max-w-3xl mx-auto">
-            Soluções completas em comunicação visual com precisão técnica e design premium.
+            Soluções completas em comunicação visual com precisão técnica e projetos de impacto.
           </p>
         </div>
 
@@ -89,7 +89,7 @@ const services = [
     image: "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?q=80&w=1932&auto=format&fit=crop",
   },
   {
-    title: "Design Gráfico",
+    title: "Projetos de Impacto",
     description: "Criação de identidades visuais e artes para todos os fins.",
     icon: <Palette className="h-8 w-8" />,
     image: "/design.jpg",

@@ -1,5 +1,6 @@
 import React from "react";
 import { Instagram, Facebook, Linkedin, ArrowUp } from "lucide-react";
+import { Logo } from "@/components/Logo";
 
 export const Footer = () => {
   const scrollToTop = () => {
@@ -11,7 +12,9 @@ export const Footer = () => {
       <div className="mx-auto max-w-7xl px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
-            <h3 className="text-2xl font-black uppercase text-primary mb-6">Rossi CV</h3>
+            <div className="mb-6 flex justify-start">
+              <Logo className="h-12 md:h-16 invert brightness-0" />
+            </div>
             <p className="text-neutral-400 font-medium">
               Especialistas em comunicação visual de alto padrão. Transformamos sua identidade em impacto real.
             </p>

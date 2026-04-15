@@ -13,7 +13,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
           className="mb-12"
         >
-          <Logo className="scale-125 md:scale-150" />
+          <Logo className="h-32 md:h-48" />
         </motion.div>
 
         <motion.h1 

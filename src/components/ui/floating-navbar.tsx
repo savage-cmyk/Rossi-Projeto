@@ -60,8 +60,8 @@ export const FloatingNav = ({
       >
         <div className="flex items-center justify-center gap-2 border-4 border-black bg-white p-1 shadow-brutal">
           {/* Logo */}
-          <div className="px-4 py-1 border-r-4 border-black">
-            <Logo className="scale-50 origin-center" />
+          <div className="px-4 py-1 border-r-4 border-black flex items-center justify-center">
+            <Logo className="h-8 md:h-10" />
           </div>
 
           {/* Nav items container */}

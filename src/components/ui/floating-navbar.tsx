@@ -58,9 +58,9 @@ export const FloatingNav = ({
           className
         )}
       >
-        <div className="flex items-center justify-center gap-2 border-4 border-black bg-white p-1 shadow-brutal">
+        <div className="flex items-center justify-center gap-2 border-4 border-white bg-black p-1 shadow-[4px_4px_0px_0px_rgba(255,255,255,0.3)]">
           {/* Logo */}
-          <div className="px-4 py-1 border-r-4 border-black flex items-center justify-center">
+          <div className="px-4 py-1 border-r-4 border-white flex items-center justify-center">
             <Logo className="h-12 md:h-16" />
           </div>
 
@@ -71,7 +71,7 @@ export const FloatingNav = ({
                 key={`link-${idx}`}
                 href={navItem.link}
                 className={cn(
-                  "relative flex items-center gap-1 px-4 py-2 text-xs font-black uppercase text-black transition-colors hover:bg-primary"
+                  "relative flex items-center gap-1 px-4 py-2 text-xs font-black uppercase text-white transition-colors hover:bg-primary hover:text-white"
                 )}
               >
                 <span className="block sm:hidden">{navItem.icon}</span>
@@ -81,10 +81,10 @@ export const FloatingNav = ({
           </div>
 
           {/* Divider */}
-          <div className="h-5 w-1 bg-black" />
+          <div className="h-5 w-1 bg-white" />
 
           {/* CTA Button */}
-          <a href="#contact" className="bg-black px-4 py-2 text-xs font-black uppercase text-white transition-all hover:bg-white hover:text-black border-2 border-transparent hover:border-black">
+          <a href="#contact" className="bg-white px-4 py-2 text-xs font-black uppercase text-black transition-all hover:bg-black hover:text-white border-2 border-transparent hover:border-white">
             <span>Orçamento</span>
           </a>
         </div>

@@ -33,8 +33,8 @@ export const Contact = () => {
             <ContactItem 
               icon={<MapPin className="h-6 w-6" />} 
               label="Endereço" 
-              value="R. Tomaz Domingos da Silveira, 2263 - Palhoça - SC" 
-              link="https://maps.google.com/?q=R.+Tomaz+Domingos+da+Silveira,+2263+-+Palhoça+-+SC"
+              value="R. Tomaz Domingos da Silveira, 2263, Galpão B - São Sebastião, Palhoça - SC" 
+              link="https://www.google.com/maps/search/?api=1&query=R.+Tomaz+Domingos+da+Silveira,+2263,+Galpão+B+-+São+Sebastião,+Palhoça+-+SC"
             />
             <ContactItem 
               icon={<Clock className="h-6 w-6" />} 

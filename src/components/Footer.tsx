@@ -1,12 +1,8 @@
 import React from "react";
-import { Instagram, Facebook, Linkedin, ArrowUp } from "lucide-react";
+import { Instagram, Facebook, Linkedin, MapPin } from "lucide-react";
 import { Logo } from "@/components/Logo";
 
 export const Footer = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
   return (
     <footer className="bg-black py-16 text-white">
       <div className="mx-auto max-w-7xl px-4">
@@ -39,15 +35,17 @@ export const Footer = () => {
             <h4 className="text-sm font-black uppercase mb-6 text-white">Localização</h4>
             <p className="text-neutral-400 font-medium">
               R. Tomaz Domingos da Silveira, 2263<br />
-              Galpão b - São Sebastião<br />
+              Galpão B - São Sebastião<br />
               Palhoça - SC
             </p>
-            <button 
-              onClick={scrollToTop}
+            <a 
+              href="https://www.google.com/maps/search/?api=1&query=R.+Tomaz+Domingos+da+Silveira,+2263,+Galpão+B+-+São+Sebastião,+Palhoça+-+SC"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-8 flex items-center gap-2 text-primary font-black uppercase text-xs hover:underline"
             >
-              Voltar ao Topo <ArrowUp className="h-4 w-4" />
-            </button>
+              Ver no Google Maps <MapPin className="h-4 w-4" />
+            </a>
           </div>
         </div>
 

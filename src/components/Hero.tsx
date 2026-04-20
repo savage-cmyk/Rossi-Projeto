@@ -31,7 +31,7 @@ export const Hero = () => {
           transition={{ delay: 0.8, duration: 0.5 }}
           className="mx-auto max-w-3xl text-xl font-black text-white md:text-2xl mb-12"
         >
-          Desde 2014 transformando marcas com precisão técnica e projetos de impacto.
+          Especializados em projetos de comunicação visual que geram credibilidade, atraem olhares e valorizam o seu espaço comercial.
         </motion.p>
 
         <motion.div
